@@ -66,7 +66,16 @@
     color: #4A6937;
 }
 
+/* output text */
+#output-text{
+    text-align: center;
+}
 
+/* akan name */
+#akan-name{
+    color: var(--secondary-color);
+    font-weight: bold;
+}
 
 /* phone styles */
 @media screen and (min-width:300px){
@@ -93,6 +102,11 @@
     #form{
         width: 100%;
         margin-bottom: 48px;
+    }
+
+    /* output text */
+    #output-text{
+        font-size: 24px;
     }
 }
 
@@ -131,6 +145,11 @@
         width: 75%;
     }
 
+    /* output text */
+    #output-text{
+        font-size: 24px;
+    }
+
 }
 
 /* desktop styles */
@@ -158,5 +177,10 @@
     /* form */
     #form{
         width: 75%;
+    }
+
+    /* output text */
+    #output-text{
+        font-size: 36px;
     }
 }
