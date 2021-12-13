@@ -21,3 +21,7 @@ function akanNameCalculator(day, month, year, gender) {
         return male[parseInt(akanDay) - 1];
     }
 }
+
+function getAkanName(){
+    
+}
