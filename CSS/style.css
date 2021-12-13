@@ -30,6 +30,7 @@
 #form{
     border: solid #C4C4C4 1px;
     padding: 24px;
+    border-radius: 8px;
 }
 
 /* input */
