@@ -26,6 +26,12 @@
     padding-top: 16px;
 }
 
+/* form */
+#form{
+    border: solid #C4C4C4 1px;
+    padding: 24px;
+}
+
 /* desktop styles */
 @media screen and (min-width:1100px){
     /* body */
