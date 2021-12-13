@@ -38,6 +38,12 @@
     height: 55px;
 }
 
+/* select gender */
+#select-gender{
+    margin-bottom: 24px;
+    height: 55px;
+}
+
 /* button */
 #btn-generate{
     background-color: var(--primary-color);
