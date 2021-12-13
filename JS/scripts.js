@@ -39,7 +39,7 @@ $(Document).ready(() => {
         } else if (date === ""){
             alert("date fields cannot be empty")
         } else {
-            outputText.innerHTML = "Hi " + name + ", your akan name is: " + "<span id='akan-name'>"+ akanNameCalculator(day, month, year, gender) + "</span>";
+            outputText.innerHTML = "Hi " + name + ", your akan name is: " + "<span id='akan-name'>" + akanNameCalculator(day, month, year, gender) + "</span>";
         }
     });
 
