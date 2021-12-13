@@ -14,3 +14,9 @@
     --accent-3: #171815;
 }
 
+/* menu */
+#menu{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
