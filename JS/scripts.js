@@ -29,6 +29,8 @@ $(Document).ready(function(){
         var month = date.slice(4, 6);
         var day = date.slice(6);
         var gender = $("#select-gender").val();
+
+        var outputText = document.getElementById("output-text");
         
         if(gender === "select-gender"){
             alert("No gender specified");
@@ -37,7 +39,8 @@ $(Document).ready(function(){
         } else if (date === ""){
             alert("date fields cannot be empty")
         } else {
-            alert("Hi " + name + ", your akan name is: " + akanNameCalculator(day, month, year, gender));
+            // alert("Hi " + name + ", your akan name is: " + akanNameCalculator(day, month, year, gender));
+            outputText.innerHTML = "Hi " + name + ", your akan name is: " + akanNameCalculator(day, month, year, gender);
         }
     });
 

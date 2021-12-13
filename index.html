@@ -43,11 +43,27 @@
                         <div class="form-group">
                             <input type="date" name="date" id="date" class="form-control">
                         </div>
-                        <button class="btn" id="btn-generate">Generate</button>
+                        <button class="btn" id="btn-generate" data-bs-toggle="modal" data-bs-target="#modal">Generate</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
+    <!-- popup -->
+    <!-- Modal -->
+    <div class="modal" id="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- Close button -->
+                    <button type="button" class="btn-close btn-close-black" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Output box -->
+                    <div class="output-box" id="output-box">
+                        <p id="output-text">Missing input details</p>
+                    </div>                   
+                </div>
+            </div>
 </body>
 </html>

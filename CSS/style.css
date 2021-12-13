@@ -66,6 +66,8 @@
     color: #4A6937;
 }
 
+
+
 /* phone styles */
 @media screen and (min-width:300px){
 
@@ -90,6 +92,7 @@
     /* form */
     #form{
         width: 100%;
+        margin-bottom: 48px;
     }
 }
 
