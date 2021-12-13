@@ -21,6 +21,7 @@ $(Document).ready(function(){
 
     $("form#form").submit(function(e){
         e.preventDefault();
+        
         var name = $("#name").val();
         var date = $("#date").val();
         date = date.replace(/-/g, '');
