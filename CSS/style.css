@@ -41,3 +41,11 @@
         width: 75%;
     }
 }
+
+/* phone styles */
+@media screen and (min-width:300px){
+    /* form */
+    #form{
+        width: 100%;
+    }
+}
