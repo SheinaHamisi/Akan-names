@@ -4,3 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* custom styles */
+:root{
+    --primary-color: #778270;
+    --secondary-color: #AC988A;
+    --accent-1: #747474;
+    --accent-2: #645B4D;
+    --accent-3: #171815;
+}
