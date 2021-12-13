@@ -33,3 +33,11 @@
         width: 50%;
     }
 }
+
+/* tablet styles */
+@media screen and (min-width:700px){
+    /* form */
+    #form{
+        width: 75%;
+    }
+}
