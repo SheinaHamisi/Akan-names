@@ -21,7 +21,7 @@ $(Document).ready(function(){
 
     $("form#form").submit(function(e){
         e.preventDefault();
-        
+
         var name = $("#name").val();
         var date = $("#date").val();
         date = date.replace(/-/g, '');
@@ -32,6 +32,10 @@ $(Document).ready(function(){
         
         if(gender === "select-gender"){
             alert("No gender specified");
+        } else if (name === ""){
+            alert("Name field cannot be empty")
+        } else if (date === ""){
+            alert("date fields cannot be empty")
         } else {
             alert("Hi " + name + ", your akan name is: " + akanNameCalculator(day, month, year, gender));
         }
